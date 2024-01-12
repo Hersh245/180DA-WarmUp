@@ -1,3 +1,12 @@
+"""
+Citations
+
+https://docs.opencv.org/4.x/da/d0c/tutorial_bounding_rects_circles.html
+https://stackoverflow.com/questions/30331944/finding-red-color-in-image-using-python-opencv
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
+"""
+
+
 import cv2
 import numpy as np
 
@@ -14,7 +23,7 @@ while True:
     # Convert the frame to HSV color space
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
-    # Define the range for white-ish colors
+    # Define the range for red-ish colors
     lower = np.array([0, 50, 50])
     upper = np.array([10, 255, 255])
 

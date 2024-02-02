@@ -1,0 +1,7 @@
+In our project, a gesture-controlled 2D fighter game, we will use Pygame for graphics. 
+Pygame will handle sprite animations, crucial for depicting character movements linked 
+to player gestures. We'll use Pygame's capabilities to draw environments and backgrounds, 
+making the game visually appealing. For characters, Pygame allows us to load, manipulate, 
+and animate images based on gesture input. It also offers collision detection, essential 
+for implementing fighting mechanics like hits and blocks. UI elements, including health 
+bars and menus, will also be created using Pygame, ensuring a clear and functional interface. 

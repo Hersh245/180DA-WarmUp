@@ -1,0 +1,7 @@
+To integrate speech recognition for activating special moves in our 2D fighter 
+game, we will employ a speech-to-text API that interprets player voice commands. 
+This feature will allow players to unleash unique character abilities or special 
+moves by speaking specific phrases or words. The speech recognition system will 
+continuously listen for predefined commands during gameplay and, upon detecting 
+a valid phrase, trigger the corresponding special move in the game. This adds an 
+innovative layer of interaction, enhancing player engagement and strategy.
